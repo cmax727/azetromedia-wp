@@ -1,0 +1,423 @@
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, four_equalsquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, tr, th, td, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, input, textarea, blockquote,figure {margin:0; padding:0; border:0; outline:0; font-size:100%; font-weight:normal; vertical-align:baseline;}
+body 												{line-height:1}
+ol, ul 												{list-style:none}
+four_equalsquote, q 								{quotes:none}
+four_equalsquote:before, four_equalsquote:after, q:before, q:after 
+													{content:''; content:none}
+:focus 												{outline:0}
+a													{text-decoration:none}
+
+/*********************************************************************************/
+body 											                                   	{background:#000 url(../images/bg.jpg) fixed left top;}
+h1                                                  {width:100%; float:left;  font-family: 'RobotoBlack'; font-size:24px;  }
+h2                                                  {width:100%;  font-family: 'MyriadProBlack';  font-size:30px;  }
+h3                                                  {width:100%; float:left;  font-family: 'RobotoBlack'; font-size:18px; color:#74c368; line-height:23px;}
+h4                                                  {width:100%; float:left; font-family: 'MyriadProBoldCondensed'; font-size:20px;  text-transform:uppercase; color:#2b2b2b;}
+h5                                                  {width:100%; font:bold 18px Tahoma, Geneva, sans-serif; color:#5e6883;}
+h6                                                  {width:100%; font-family: 'BreeSerifRegular'; font-size:16px; color:#e3ddc7; line-height:20px; }
+p                                                   {width:100%; float:left; font:normal 15px Arial, Helvetica, sans-serif; color:#3f3f3f;  line-height:22px; margin:30px 0 0 0;}
+.main-continer                                      {width:100%; height:auto; float:left;}
+                                                  
+/*-------------global-class-------------*/
+#wrapper                                            {width:100%; height:auto; float:left; }
+.center-align                                       {width:960px; height:auto; margin:0px auto; padding:0 0 0 0; position:relative; }
+.center-align2                                      {width:980px; height:auto; margin:0px auto; position:relative; }
+.wrp                                                {width:100%; height:auto; float:left;  margin:50px 0 0 0;  }
+   
+
+/*=========TOP-PNL==================*/
+.menu-way-point                                    {width:100%; height:1px; float:left; position:absolute; left:0px; top:100px;}
+.top-pnl                                           {width:100%; height:67px; float:left; position:fixed; left:0px; top:0px;z-index:200;}
+.top-pnl .cnt                                      {width:100%; height:auto; float:left; position:relative;}
+.top-pnl .cnt .menu-bar                            {width:55%; height:67px; float:right;background:url(../images/texture-1.png) repeat; position:absolute; right:0px; top:0px; -webkit-transition: all 0.2s ease;
+                                                    -o-transition: all 0.2s ease;
+                                                      -ms-transition: all 0.2s ease;
+                                                      transition: all 0.2s ease;}
+.top-pnl .cnt .menu-bar.all                        {width:100%; }
+#logo{ float:left; margin:10px 0 0 0; }
+.top-pnl .mani-nav                                 { width:730px; height:67px; float:right; background:url(../images/texture-1.png) repeat;margin:0px; padding:0px; -webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-left-radius: 10px;}
+.top-pnl .mani-nav  ul                             {width:100%; height:67px; float:right;  }
+.top-pnl .mani-nav  ul li                          {width:auto; height:43px; float:left; margin:25px 0 0 52px; position:relative;  }
+.top-pnl .mani-nav  ul li:first-child              {margin:25px 0 0 30px;}
+.top-pnl .mani-nav  ul li a                        {width:auto; height:43px; float:left;  font-family: 'MyriadProSemiboldCondensed'; font-size:18px; color:#FFF; position:relative; text-transform:uppercase; overflow:hidden; }
+.top-pnl .mani-nav  ul li a span {width:11px; height:9px; float:left; position:absolute; left:50%; bottom:60px; background:url(../images/nav-arrow.png) repeat; margin-left:-6px;  -webkit-transition: all 0.8s ease;
+                                                    -o-transition: all 0.8s ease;
+                                                      -ms-transition: all 0.8s ease;
+                                                      transition: all 0.8s ease;}
+.top-pnl .mani-nav  ul li:hover a                  {color:#62b8d4;} 
+.top-pnl .mani-nav  ul li:hover a span             { bottom:9px;}
+.top-pnl .mani-nav  ul li.active a                 {color:#62b8d4;} 
+.top-pnl .mani-nav  ul li.active a span            { bottom:9px;} 
+.top-pnl .mani-nav  ul li ul                       {width:162px; height:auto; float:left; display:none; padding:20px; position:absolute; left:-18px; top:42px; z-index:20; background:url(../images/texture-2.png) repeat; -webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px; 
+-moz-box-shadow:inset -2px -24px 75px #06445c;
+-webkit-box-shadow:inset -2px -24px 75px #06445c;
+box-shadow:inset -2px -24px 75px #06445c;
+
+ }
+.top-pnl .mani-nav  ul li ul li                    {width:100%; height:auto; float:left; margin:0px; }
+.top-pnl .mani-nav  ul li ul li:first-child        { margin:0px; }
+.top-pnl .mani-nav  ul li ul li a                  {width:100%; height:auto; float:left; margin:13px 0 0 0; color:#FFF;}
+.top-pnl .mani-nav  ul li:hover ul li a           {color:#FFF;}
+.top-pnl .mani-nav  ul li:hover ul li a:hover     {color:#031d27;}
+.top-pnl .mani-nav  ul li.active ul li a           {color:#FFF;}
+.top-pnl .mani-nav  ul li.active ul li a:hover     {color:#031d27;}
+
+.top-pnl .mani-nav  ul li ul li:first-child a      { margin:0px; } 
+
+/*=========TOP-PNL======END============*/
+/*=========CONTENT_PNL============*/
+
+.content-pnl                                      {width:100%; height:auto; float:left; margin:67px 0 0 0;}
+
+/*=========Slider============*/
+.bnIcons                                        {width:400%; height:auto; float:left; margin:130px 0 0 70px;}
+.bnIcons a                                      {width:105px; height:105px; float:left; background:url(../images/icon-bg.png) no-repeat; margin:0 0 0 28px;}
+.bnIcons a:hover                                {background:url(../images/icon-bg-ov.png) no-repeat;}
+.bnIcons a span                                 {width:95px; height:95px; float:left;}
+.bnIcons a span.one                             {background:url(../images/bn-icons.png) no-repeat 28px 30px;}
+.bnIcons a span.two                             {background:url(../images/bn-icons.png) no-repeat 28px -56px;}
+.bnIcons a span.three                           {background:url(../images/bn-icons.png) no-repeat 28px -150px;}
+.bnIcons a:hover span.one                             {background-position: -50px 30px;}
+.bnIcons a:hover span.two                             {background-position:-50px -56px;}
+.bnIcons a:hover span.three                           {background-position: -50px -150px;}
+
+.elTwo                                          {width:auto; height:auto; float:left; left:95px; margin:260px 0 0 0; font-size:76px; color:#FFF; font-family: 'chunkfiveregular'; text-transform:uppercase;}
+
+.elThree                                        {width:auto; height:auto; float:left; left:390px; margin:350px 0 0 0; font-size:53px; color:#68a9b9; font-family: 'league_gothicregular'; text-transform:uppercase;}
+.elFour                                         {width:187px; height:157px; float:left; padding:30px 0 0 0px; background:url(../images/demo-now.png) no-repeat; left:660px; top:120px; font-size:56px; color:#FFF; font-family: 'chunkfiveregular'; text-transform:uppercase; text-align:center; -moz-transform:rotate(340deg);
+-webkit-transform:rotate(340deg);
+-o-transform:rotate(340deg);
+-ms-transform:rotate(340deg);
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3.8);}
+.elFour span                                    {font-size:32px;} 
+
+
+.slidTwo                                         {width:100%; height:428px; float:left; top:120px; right:-80px;   background:url(../images/social-media-baner.png) no-repeat right bottom;}
+.b2-elOne                                        {width:auto; height:auto; float:left; left:0; top:50px; font-size:76px; color:#FFF; font-family: 'chunkfiveregular'; text-transform:uppercase;}
+.b2-elTwo                                        {width:350px; height:auto; float:left; left:0; top:220px; font-size:53px; color:#68a9b9; font-family: 'league_gothicregular'; text-transform:uppercase;}
+/*=========product-scroll============*/
+.product-scroll                               {width:100%; height:auto; min-height:178px; float:left; background:url(../images/teture-3.png) repeat left top;-moz-box-shadow: 0px -17px 66px #000000;
+-webkit-box-shadow: 0px -17px 66px #000000;box-shadow: 0px -17px 66px #000000;
+}
+.product-scroll .cnt                          {width:100%; height:auto; min-height:178px; float:left; border-top:#1f1f22 solid 1px; background:url(../images/shadow.png) repeat-x left bottom; }
+.ps-pnal                                      {width:100%; height:auto; min-height:195px; float:left; background:url(../images/teture-4.png) repeat left top; position:absolute; left:0px; top:-20px; z-index:100; 
+
+
+    -moz-box-shadow: 0px -5px 15px #000000;
+    -webkit-box-shadow: 0px -5px 15px #000000;
+    box-shadow: 0px -5px 15px #000000;
+
+
+
+
+
+}
+.ps-wrp                                       {width:100%; height:198px; float:left; background:url(../images/shadow2.png) repeat left bottom;  -moz-box-shadow:inset 0px 1px 2px #575757; -webkit-box-shadow:inset 0px 1px 2px #575757; box-shadow:inset 0px 1px 2px #575757;
+ }
+.scll-horizontal {width:980px;height:195px; float:left; margin:0; padding:0px; position: relative; /*overflow: hidden;*/ 
+}
+
+.scll-contents-horizontal{	width: 960px;	height: 185px;	float: left;	position: relative;overflow: hidden; margin:15px 10px 0 10px; padding:10px 0 0 0;}
+.scll-contents-horizontal > div{	position: absolute;	width: 100%;	height:195px; }
+.scll-contents-horizontal > div > div{float: left; height:185px;}
+.scll-contents-horizontal img {width:220px; height:144px; float:left; margin:0 0 0 15px; border:#79797a solid 1px;-moz-box-shadow: 0px 1px 8px #000000;-webkit-box-shadow: 0px 1px 8px #000000;box-shadow: 0px 1px 8px #000000;}
+.scll-contents-horizontal img:hover{border:#17aeda solid 1px;-moz-box-shadow: 0px 1px 20px #000000;-webkit-box-shadow: 0px 1px 20px #000000;box-shadow: 0px 1px 20px #000000;}
+
+.scll-horizontal-forward{float: left;	width: 28px;	height: 38px;	position:absolute;  top:80px; right:-28px; background:url(../images/scroll-arrows.png) no-repeat right top;cursor: pointer;}
+.scll-horizontal-back{ float: left;	width: 28px;	height: 38px;	position:absolute; top:80px; left:-28px; background:url(../images/scroll-arrows.png) no-repeat left top;cursor: pointer; }
+
+
+/*=====HOME====SERVICES============*/
+.pnal-one                                                  {width:100%; height:auto; float:left; background:url(../images/teture-6.png) repeat left top; padding:0 0 45px 0}
+
+.services .clm                                             {width:300px; height:auto; float:left; text-align:center; margin:0 10px 0 10px}
+.services .clm h1                                          {font-family: 'chunkfiveregular'; font-size:25px; color:#3ea2c3; text-align:center;}
+.services .clm img                                         {margin:30px 0 0 0;border:#79797a solid 1px;-moz-box-shadow: 0px 1px 8px #000000;-webkit-box-shadow: 0px 1px 8px #000000;box-shadow: 0px 1px 8px #000000;}
+.services .clm p                                           {margin:40px 0 0 0; font:normal 13px Arial, Helvetica, sans-serif; color:#d3d3d3; text-align:center;}
+
+
+
+.row-one                                          {width:100%; height:auto; float:left; background:#FFFFFF; border-top:12px #222222 solid; padding:0 0 50px 0;}
+.row-one .footCnt .clm                            {width:300px; float:left; margin:0 10px 0 10px;}
+.row-one .footCnt .clm h1                         {font-family: 'MyriadProBold'; font-size:28px; color:#2abff0; line-height:normal;}
+.row-one .footCnt .clm h1 small                   { float:left;font:bold 18px Arial, Helvetica, sans-serif; color:#969696; }
+.row-one .footCnt .clm p                          {font:normal 15px Arial, Helvetica, sans-serif; color:#414141; margin:45px 0 0 0; padding:0px; text-transform:none;}
+.row-one .footCnt .clm p a                        {color:#e01f68; }
+.row-one .footCnt .clm p a:hover                  {text-decoration:underline;}
+.row-one .footCnt .clm p img                      {float:left; margin-top:-15px;}
+.row-one .footCnt .clm span                       {width:100%; float:left; margin:10px 0 0 0;font-family: 'MyriadProBold'; font-size:34px;  text-transform:uppercase; color:#7d5586; }
+.row-one .footCnt .clm span small                 {font-family: 'MyriadProBold'; font-size:22px;  text-transform:uppercase; color:#969696;}
+.row-one .footCnt .clm span.e-mail                {font-size:16px; color:#2d9fda; margin:10px 0 0 0; text-transform:none;}
+.row-one .footCnt .clm span.e-mail a              {color:#5a5a5a; padding:0 0 0 10px; }
+.row-one .footCnt .clm span.e-mail a:hover        {text-decoration:underline;}
+.row-one .footCnt .clm span.testmonial            {margin:0px;}
+.row-one .footCnt .clm p.tst-au                   {font-weight:bold; color:#e01f68;}
+.row-one .footCnt .clm p.tst-au small             { font:normal 14px Arial, Helvetica, sans-serif; color:#414141;}
+
+
+/*=====INNER====BANENR============*/
+.inner-baner                                              {width:100%; height:auto; float:left; margin:100px 0 0 0; padding:0 0 60px 0; }
+.in-ba-bg                                                    {width:auto; height:400px; float:left; position:absolute; right:-70px; top:100px;}
+.inner-baner h1                                              { font-size:76px; color:#FFF; font-family: 'chunkfiveregular'; text-transform:uppercase; line-height:none;}
+.inner-baner h1 small                                        {font-size:56px; float:left;}
+.inner-baner h3                                              { margin:35px 0 0 0; font-size:53px; color:#68a9b9; font-family: 'league_gothicregular'; text-transform:uppercase; line-height:50px;}
+
+
+/*=====INNER====CONTENT============*/
+
+.midd-pnl                                                    {width:100%; height:auto; float:left; padding:0 0 40px 0; background:url(../images/teture-6.png) repeat; }
+.me-midd .mm-left                                            {width:630px; float:left; margin:0 0 0 10px;}
+.me-midd h3                                                  {color:#3ea2c3; font-family: 'chunkfiveregular'; font-size:25px;}
+.me-midd p                                                   {color:#d3d3d3;}
+.me-midd .mm-rigth                                           {width:auto; float:right; }
+
+
+#tabs                                                        {width:100%; height:auto; float:left;}
+.hide                                                        {position: absolute; top: -9999px; left: -9999px; }
+.tabs                                                        {width:100%; height:auto; float:left;}
+.tabs ul                                                     {width:100%; height:50px; float:left; background:url(../images/tabs.png) no-repeat left top; position:relative; }
+.tabs ul li                                                  {width:190px; height:48px; float:left;}
+.tabs ul li a                                                {width:198px; height:38px; padding:10px 0 0 0;  position:absolute; top:0px; cursor:pointer;z-index:20;float:left; text-align:center; 	font-family: 'Impact'; color:#FFF; font:20px; text-transform:uppercase; }
+
+.tabs ul li a:hover                                            { background-image:url(../images/tabs.png);top:-18px;}
+.tabs ul li a.current                                          { background-image:url(../images/tabs.png);top:-18px;}
+.tabs ul li.one a                                              {left:0px; }
+.tabs ul li.two a                                              {left:190px; }
+.tabs ul li.three a                                            {left:380px;}
+.tabs ul li.four a                                             {left:560px; }
+.tabs ul li.five a                                             { left:740px; }
+                                     
+.tabs ul li.one a:hover,.tabs ul li.one a.current                  {height:58px;background-position:0px bottom; left:0px; }
+.tabs ul li.two a:hover,.tabs ul li.two a.current                  {height:58px;background-position:-211px bottom; left:186px;}
+.tabs ul li.three a:hover,.tabs ul li.three a.current              {height:58px;background-position:-424px bottom; left:372px;}
+.tabs ul li.four a:hover ,.tabs ul li.four a.current               {height:58px;background-position:-638px bottom; left:558px;}
+.tabs ul li.five a:hover,.tabs ul li.five a.current                {height:58px;background-position:-850px bottom; left:743px;}
+
+.tabs-Cnt                                                      {width:100%; height:auto; float:left; padding:40px 0 0 0;}
+.tabs-Cnt p                                                    {text-align:center; margin:0px;}
+
+hgroup                                                     {width:100%; float:left;}
+hgroup h1                                                  {font-family: 'chunkfiveregular'; font-size:35px; color:#3ea2c3; text-transform:uppercase; text-align:center;}
+hgroup h3                                                   {font:bold 23px Arial, Helvetica, sans-serif; color:#979797; text-align:center; margin:0px;}
+
+
+
+
+
+ul.gallary                                                     {width:100%; height:auto; float:left;}
+ul.gallary li                                                 { width:315px; height:265px; float:left; overflow:hidden; }
+	
+	
+ul.gallary li .gl-cnt	                                         {width:270px; height:217px; float:left; margin:25px 11px 0 11px; position:relative; border:10px solid #FFF; overflow:hidden; -webkit-box-shadow: 0px 0px 3px #929292;
+   -moz-box-shadow: 0px 1px 3px #929292;
+   box-shadow: 0px 0px 3px #929292; /* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#929292')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#929292');
+}
+
+
+ul.gallary li .gl-cnt img                                             { width:100%; height:100%;position:absolute; left:0px; top:0px;}
+
+ul.gallary li .gl-cnt .mask                                              {width:86%; height:84%; padding:20px; position:absolute; left:-272px; top:0px; background:url(../images/teture-6.png) repeat;} 
+ul.gallary li .gl-cnt .mask h3                                           {font-family: 'chunkfiveregular'; font-size:18px; color:#FFF; text-transform:uppercase; }
+ul.gallary li .gl-cnt .mask p                                            { color:#FFF; margin:20px 0 0 0;}
+ul.gallary li .gl-cnt .mask p.caption                                    { width:65%; color:#FFF; }
+
+ul.gallary li .gl-cnt .mask a                                            { width:31px; height:31px; background:url(../images/go.png) no-repeat left top;position:absolute; right:10px; bottom:30px;}
+ul.gallary li .gl-cnt .mask a:hover                                       { background-position:left bottom}
+
+
+
+.inner-baner.ourWorks h1                                          { text-align:center; font-size:60px;}
+.inner-baner.ourWorks p                                          { text-align:center; font-size:16px; color:#d3d3d3; line-height:30px;}
+.protfilioNav                                                    {width:100%; height:80px; float:left; background:url(../images/shadow3.png) repeat-x left top;}
+.protfilioNav ul                                                 {width:100%; height:auto; float:left;}
+.protfilioNav ul li                                              {width:auto; height:auto; float:left;}
+.protfilioNav ul li a                                            {width:auto; height:auto; margin:35px 0 0 70px; float:left; font-family: 'RobotoBold';  font-size:16px; color:#999999; text-transform:uppercase; cursor:pointer;}
+.protfilioNav ul li:first-child  a                                { margin-left:30px;}
+.protfilioNav ul li a:hover                                       {color:#c796e9;}
+.protfilioNav ul li.selected a                                       {color:#c796e9;}
+
+
+/*=========BLOG============*/
+
+.blogCnt                                                         {width:100%; height:auto; float:left;}
+.blogCnt .topPnl                                                 {width:100%; height:auto; float:left; margin:100px 0 0 0; }
+.blogCnt .topPnl h1                                              {font-family: 'chunkfiveregular'; font-size:76px; color:#ffffff; text-transform:uppercase; text-align:center;}
+
+.blogCnt .leftCnt                                                 {width:670px; height:auto; float:left; margin:50px 0 0 0; padding:0 0 80px 0;}
+.blogCnt article                                                  {width:310px; float:left; padding:5px;margin:30px  0 0; background:url(../images/opy-1.png) repeat left top;}
+.blogCnt article.fr                                               { float:right;}
+.blogCnt article.cnt                                            {width:87%; float:left; padding:20px;  background:#fff; position:relative; height:429px ! important;}
+.blogCnt .leftCnt h1                                               {font-family: 'chunkfiveregular'; font-size:28px; color:#29beef; text-transform:uppercase; }
+.blogCnt .leftCnt article .cnt figure                             {float:left; margin-top:20px;}
+.blogCnt p                                                        {margin-top:20px;  }
+.blogCnt .leftCnt article .cnt a                                  { width:100%;  float:left; font:bold 15px Arial, Helvetica, sans-serif; color:#e01f68; margin:20px 0 0 0; }
+.blogCnt .leftCnt article .cnt a:hover                            {color:#c796e9; }
+
+.blogCnt .leftCnt article .cnt .socalNtw                           {width:100%; height:auto; float:left; margin:20px 0 0 0;}
+.blogCnt .leftCnt article .cnt .date                                {width:40px; height:50px; float:left; padding:5px 10px 5px 10px; text-align:center; color:#FFF; font-family: 'chunkfiveregular'; font-size:16px;    background:#29beef; position:absolute; right:0px; bottom:0px;}
+.blogCnt .leftCnt article .cnt .date span                                { font-size:12px;}
+
+.blogCnt .leftCnt ul.pageNation                                    {width:100%; height:auto; float:left; margin:50px 0 0 0;}
+.blogCnt .leftCnt ul.pageNation li                                 {width:auto; height:auto; float:left; margin:0 4px 0 0; font:bold 12px Arial, Helvetica, sans-serif; color:#fff;}
+.blogCnt .leftCnt ul.pageNation li span                            {float:left; padding:13px; }
+.blogCnt .leftCnt ul.pageNation li a                               { color:#fff; float:left; padding:12px 15px 12px 15px; background:#29beef;}
+.blogCnt .leftCnt ul.pageNation li a:hover, .blogCnt .leftCnt ul.pageNation li.active a { background:#e01f68;}
+.blogCnt .leftCnt ul.pageNation li a#prv,.blogCnt .leftCnt ul.pageNation li a#next{padding:12px 30px 12px 30px;}
+
+.blogCnt .rightCnt                                                  {width:260px; height:auto; float:right; margin:50px 0 0 0; padding:0 0 50px 0; }
+.blogCnt .rightCnt article                                          {width:250px; margin:30px 0 0 0; }
+.blogCnt .rightCnt article .cnt                                     {width:84.5%; }
+.blogCnt .rightCnt h3                                               {font-family: 'chunkfiveregular'; font-size:20px; color:#29beef; text-transform:uppercase; }
+
+.blogCnt .rightCnt .searchPnl                                       {width:99%; height:42px; float:left; border:#e9e9ea solid 1px; margin:20px 0 0 0;  -moz-box-shadow: inset 0 0 5px #e9e9ea;
+-webkit-box-shadow: inset 0 0 5px #e9e9ea;
+box-shadow: inset  0 0 5px #e9e9ea;}
+
+.blogCnt .rightCnt .searchPnl input[type="text"]                     {width:67%; height:20px; float:left; margin:5px 0 0 5px; padding:5px; font:normal 12px Arial, Helvetica, sans-serif; color:#CCC;}
+.blogCnt .rightCnt .searchPnl input[type="button"]                     {width:25%; height:42px; float:right; background:#69d1f4 url(../images/search-icon.png) no-repeat center; cursor:pointer;text-indent:-9999px;}
+
+ul.recentPost                                                        {width:100%; height:auto; float:left;}
+ul.recentPost li                                                     {width:100%; height:auto; float:left;}
+ul.recentPost li:first-child                                         {margin:10px 0 0 0;}
+ul.recentPost li a                                                   {width:90%; height:auto; float:left; padding:10px; font:normal 15px Arial, Helvetica, sans-serif; color:#414141;}
+ul.recentPost li a:hover                                             { background:#eefbff; color:#414141;}
+
+
+
+
+
+/*=========HOW IT WORK============*/
+
+
+.how-it-work-pnl                                                      {width:100%; height:100%; float:left; position:absolute; }
+
+.ss2_wrapper { position:absolute; width:100%; height:100%;  overflow:hidden; }
+.ss2_wrapper .slideshow { position:relative; width:100%; height:auto; margin:0px auto; text-align:center; }
+	
+.ss2_wrapper .slideshow_item { width:100%; height:auto; float:left; position:relative; left:0px; top:0px;  }
+.ss2_wrapper .slideshow_item .data { display:none; }
+
+.slideshow_item .slide-one { width:100%;  height:260px; margin:9% auto 0 auto ; display:block; text-align:center; /*background:url(../images/how-it-work.png) no-repeat center*/}
+.slideshow_item .slide-one img { text-align:center; margin-top:5%; } 
+.slideshow_item .image         {width:373px;  height:374px; margin:9% auto 0 auto ; padding:20px 0 0 0; text-align:center;   background:url(../images/icon-bg2.png) no-repeat;} 
+	
+.ss2_wrapper a.slideshow_prev { position:absolute; left:15px; top:50%; z-index:2000; width:53px; height:73px; outline:none; }
+
+.ss2_wrapper a.slideshow_prev span { display:block; width:53px; height:73px; background:url(../images/arrows.png) no-repeat left top; text-indent:-9999px; }
+		
+.ss2_wrapper a.slideshow_next { position:absolute; right:15px; top:50%; z-index:2000; width:53px; height:73px; outline:none; }
+.ss2_wrapper a.slideshow_next span { display:block; width:53px; height:73px; background:url(../images/arrows.png) no-repeat right top; text-indent:-9999px; }
+
+	.ss2_wrapper .slideshow_box { position:absolute; left:0; bottom:0; background:url(trans-black-70.png); width:100%; height:110px; z-index:10;  }
+
+	.ss2_wrapper .slideshow_box .data h1                      { font-size:40px; } 
+
+.ss2_wrapper h1                      {font-family: 'chunkfiveregular'; font-size:60px; text-align:center; color:#FFF; text-transform:uppercase; margin:2% 0 0 0;} 
+.ss2_wrapper p                       { font:normal 16px Arial, Helvetica, sans-serif; color:#d3d3d3; text-align:center; line-height:30px;}	
+		
+		
+
+
+
+
+
+
+
+
+
+
+.htw-foot                                                             {width:100%; height:auto; float:left; position:absolute; bottom:-370px;}
+
+
+
+
+/* ====search button */
+
+.se-search-btn{ background-image: url("../images/search-icon.png");}
+
+
+/*=========FOOTER============*/
+
+#footer                                                   {width:100%; height:auto; float:left;}
+#footer .footer-nav                                       {width:100%; height:auto; float:left; background:url(../images/teture-4.png) repeat; border-top:12px #222222 solid;  }
+#footer .footer-nav .footer-nav-shadow                     {width:100%; height:auto; float:left; background:url(../images/shadow.png) repeat-x left bottom; padding:0 0 35px 0;}
+.footer-nav ul                                            {width:240px; height:auto; float:left; }
+.footer-nav ul li                                         {width:100%; height:auto; float:left; font:normal 13px Arial, Helvetica, sans-serif;margin:15px 0 0 0; }
+.footer-nav ul li.hedding  a{color:#66aac4; font-family: 'UltraRegular';  font-size:16px;  text-transform:uppercase; margin:0px; padding:0 0 15px 0; }
+.footer-nav ul li a                                       {color:#7c7c7c; float:left; font:normal 12px Arial, Helvetica, sans-serif; }
+.footer-nav ul li a:hover                                 {color:#29beef;}
+
+
+
+footer                                                    {width:100%; height:auto; float:left; background:url(../images/teture-6.png) repeat; padding:30px 0 30px 0;}
+footer p                                                  {width:auto; font:normal 12px Tahoma, Geneva, sans-serif; color:#727272; text-transform:uppercase; margin:0px;}
+footer p a                                                {color:#727272; font-weight:bold;}
+footer p a:hover                                          {color:#00c0ff; }
+footer span                                               {float:right; font:normal 11px Tahoma, Geneva, sans-serif;  color:#727272;}
+footer span a                                             {color:#727272; padding:0 0 0 5px;}
+footer span a:hover                                       {color:#00c0ff;}
+
+
+/*=================pagination=============*/
+
+.pagenavi{float: left;
+font: 15px 'Open Sans',arial,sans-serif;
+height: auto;
+margin: 50px 0 0;
+width: 100%;
+ }
+
+/*.pagenavi .current{ border-radius: 5px; padding:6px 9px 5px 9px; background: #570DA3; color:#fff; }*/
+
+.pagenavi a {color:#fff; float:left; padding:12px 15px 12px 15px; background:#29beef;margin-right:4px; }
+
+.pagenavi a:hover,span.current{ background:#e01f68;color: #FFFFFF;float: left;padding: 12px 15px;margin-right:4px; }
+
+.entry-edit-cc { padding:20px 0px;  }
+.entry-edit-cc span a { color:#62B8D4; }
+.topPnl h1.entry-title-new { font-size:40px; }
+.entry-meta-new { color:#fff; padding:10px 0px 20px 0px; }
+.entry-meta-new a { color:#62B8D4; }
+.entry-meta span { color:#fff; }
+.entry-meta a { color:#62B8D4; }
+.entry-meta { margin-top:20px; }
+#nav-single { margin:0px 0px 20px 0px; }
+#nav-single span.nav-previous, #nav-single span.nav-next { float:left; margin:10px 10px 20px 0px; }
+#nav-single span.nav-previous a, #nav-single span.nav-next a { background:#29BEEF; padding:12px 15px; color:#fff; font:15px 'Open Sans',arial,sans-serif; display:block; }
+#nav-single span.nav-previous a:hover, #nav-single span.nav-next a:hover { background:#E01F68; }
+#content h1.entry-title { text-align:left !important; margin:10px 0px; font-size:40px; }
+#content h1.entry-title a { color:#fff; font-size:26px; text-align:left; }
+#content h1.page-title { font-size:40px;  margin:10px 0px; }
+.comments-link a { color:#62B8D4; }
+.entry-summary p a { color:#62B8D4; }
+#secondary { margin:20px 0px; }
+.assistive-text { color:#fff; }
+#secondary aside { margin-top:20px !important; }
+#secondary aside h3 { color:#fff; }
+#secondary aside ul { margin-top:5px; }
+#secondary aside ul li { padding:3px 0px; color:#fff; }
+#secondary aside ul li a { color:#62B8D4; }
+.ee-rearch-ff { margin:10px 0px; }
+#content h2 { color:#fff !important; font-size:18px; font-family: 'RobotoBlack'; margin:10px 0px; }
+.entry-content p { color:#fff; }
+.entry-content ul li { padding:3px 0px; color:#fff; }
+.entry-content ul li a { color:#62B8D4; }
+.entry-summary p { color:#fff; }
+/*
+
+
+.blogCnt .leftCnt ul.pageNation li a                               { color:#fff; float:left; padding:12px 15px 12px 15px; background:#29beef;}
+.blogCnt .leftCnt ul.pageNation li a:hover, .blogCnt .leftCnt ul.pageNation li.active a { background:#e01f68;}
+.blogCnt .leftCnt ul.pageNation li a#prv,.blogCnt .leftCnt ul.pageNation li a#next{padding:12px 30px 12px 30px;}
+
+*/
